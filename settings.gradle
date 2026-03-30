@@ -1,3 +1,2 @@
-rootProject.name = 'jcard'
+rootProject.name = 'PV204TestApplet'
 include 'applet'
-
