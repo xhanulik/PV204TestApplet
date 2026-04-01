@@ -29,6 +29,17 @@ If you do not use IntelliJ Idea, you can build the applet in CLI using directly 
 - Run Gradle wrapper `./gradlew` on Unix-like system or `./gradlew.bat` on Windows
 to build the project for the first time (Gradle will be downloaded if not installed).
 
+### Clone and build
+
+- Clone repository
+
+```bash
+git clone https://github.com/xhanulik/PV204TestApplet.git
+cd PV204TestApplet
+git submodule init
+git submodule update
+```
+
 ### Building cap file
 
 - Run the `buildJavaCard` task:
